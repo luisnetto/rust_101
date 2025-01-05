@@ -18,5 +18,5 @@ fn main() {
 
     let word = first_word(&s);
     println!("{}", word);
-    s.clear();
+    s.clear(); // This empties the String, making it equal to " "
 }
